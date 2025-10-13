@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  bot_core:  # This is the name of the service
+    build: .  # Builds the Dockerfile in the current directory
+    container_name: telegram_bot  # Assigns a name to the container
+    environment:
+      - TELEGRAM_API_TOKEN=${BOT_TOKEN}  # Uses an environment variable for the bot token
+    restart: unless-stopped  # Restart policy
