@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+.env
 # C extensions
 *.so
 
@@ -26,6 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -93,7 +94,7 @@ ipython_config.py
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
-
+.env
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
@@ -104,12 +105,12 @@ celerybeat.pid
 # Environments
 local.env
 .venv
-env/
+.env/
 venv/
-ENV/
+.env/
 env.bak/
 venv.bak/
-
+.env
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
