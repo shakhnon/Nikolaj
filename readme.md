@@ -31,5 +31,4 @@ Built with **Python 3.10**, **python-telegram-bot**, and **dotenv**.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/telegram-photo-forwarder.git
-cd telegram-photo-forwarder
+git clone https://github.com/shakhnon/Nikolaj.git
